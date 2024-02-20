@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="content">
+        <h1>m00elsayed</h1>
+        <h1>m00elsayed</h1>
+    </div>
+</div>
+<div class=" w-75 mx-auto bg-info text p-4">
+    <div>
+        <label for="inputName">product Name</label>
+        <input type="text" id="inputName" class="form-control"  placeholder="ENTER NAME ...">
+    </div>
+    <div>
+        <label for="inputPrice">product Price</label>
+        <input type="text" id="inputPrice" class="form-control"placeholder="ENTER PRICE ...">
+    </div>
+    <div>
+        <label for="inputType">product Type</label>
+        <input type="text" id="inputType" class="form-control" placeholder="ENTER TYPE ..." >
+    </div>
+    
+<div class="text-center">
+    <button onclick="addItems()" id="addBtn" class="btn btn-primary mt-3 btn-lg px-4">Add Item</button>
+    <button onclick="returnData()" id="updateBtn" class="btn btn-primary mt-3 btn-lg px-4 d-none">Update Item</button>
+</div>
+
+
+<table class="table my-3 text-center">
+<thead>
+    <tr>
+        <th>Index</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Type</th>
+        <th>Button</th>
+    </tr>
+</thead>
+<tbody id="bodyData">
+</tbody>
+</table>
+</div>
+
+
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
